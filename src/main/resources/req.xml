@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- This is our beans -->
+    <bean id="tri" class="com.InjectObj.Triangle">
+        <property name="PointA" ref="point"/>
+        <property name="PointB" ref="point1"/>
+        <property name="PointC" ref="point2"/>
+    </bean>
+
+    <bean id="point" class="com.InjectObj.Point">
+        <property name="x" value="0"/>
+        <property name="y" value="3"/>
+    </bean>
+
+    <bean id="circle" class="com.CoreSpring.Annotation.Req.Circle">
+
+    </bean>
+</beans>
