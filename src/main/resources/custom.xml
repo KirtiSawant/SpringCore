@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="helloWorld" class="Example.SpringEvent.HelloWorld">
+        <property name="message" value="Hello...!!!"></property>
+    </bean>
+    <bean id="myEventListener" class="Example.SpringEvent.MyEventListener"/>
+    <bean id="stdEventStart" class="Example.SpringEvent.StdEventStart"/>
+    <bean id="stdEventClose" class="Example.SpringEvent.StdEventClose"/>
+</beans>
