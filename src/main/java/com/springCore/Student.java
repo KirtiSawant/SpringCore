@@ -5,7 +5,6 @@ public class Student {
     private String studentName;
     private String studentAddress;
 
-
     public int getStudentId() {
         return studentId;
     }
@@ -30,18 +29,5 @@ public class Student {
         this.studentAddress = studentAddress;
     }
 
-    public Student() {
-        super();
-    }
-
-    public Student(int studentId, String studentName, String studentAddress) {
-        this.studentId = studentId;
-        this.studentName = studentName;
-        this.studentAddress = studentAddress;
-    }
-
-    public String toString() {
-        return "Student [studentId=" + studentId + ",studentName=" + studentName + ",studentAddress=" + studentAddress + "]";
-    }
 }
 

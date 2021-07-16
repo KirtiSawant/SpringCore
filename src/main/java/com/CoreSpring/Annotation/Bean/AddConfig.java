@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AddConfig {
-    @Bean("add")
+    @Bean("std")
     public Address getstudAddress() {
         return new Address();
     }

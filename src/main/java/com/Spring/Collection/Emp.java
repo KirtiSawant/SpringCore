@@ -43,16 +43,5 @@ public class Emp {
         this.courses = courses;
     }
 
-    public Emp(String name, List<String> phone, Set<String> address, Map<String, String> courses) {
-        super();
-        this.name = name;
-        this.phone = phone;
-        this.address = address;
-        this.courses = courses;
-    }
-
-    public Emp() {
-        super();
-    }
 
 }

@@ -1,4 +1,4 @@
-package com.CoreSpring.Annotation;
+package com.CoreSpring.Annotation.Required;
 
 import org.springframework.beans.factory.annotation.Required;
 
@@ -26,7 +26,7 @@ public class Company {
     }
 
     public String toString() {
-        return "Company [cid=" + cid + "cname=" + cname + "]";
+        return "Company [cid=" + cid + ",cname=" + cname + "]";
 
     }
 }

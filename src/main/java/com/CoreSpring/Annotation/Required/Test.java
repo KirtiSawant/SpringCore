@@ -1,4 +1,4 @@
-package com.CoreSpring.Annotation;
+package com.CoreSpring.Annotation.Required;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

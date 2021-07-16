@@ -13,6 +13,8 @@ public class App {
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         Student stud = (Student) context.getBean("stud");
 
-        System.out.println(stud);
+        System.out.println(stud.getStudentId());
+        System.out.println(stud.getStudentName());
+        System.out.println(stud.getStudentAddress());
     }
 }
